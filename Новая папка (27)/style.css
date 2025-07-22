@@ -1,0 +1,80 @@
+header > ul{
+    display: flex;
+    gap: 25px;
+}
+header > ul > li > a{
+    color: white;
+    transition: 0.5s ease;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+}
+header > input{
+    width: 241px;
+    height: 30px;
+    color: white;
+     background: #404864;
+     border-radius: 5px;
+}
+header > .uno{
+    width: 165px;
+    height: 30px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
+header > ul > li > a:hover{
+      color: #FF9C28;
+}
+section{
+    height: 554px;
+    background-image: url(./Bg.svg);
+    
+}
+.dos > .box{
+    display: flex;
+    justify-content: space-around;
+}
+.dos > h1{
+    text-align: center;
+    color: white;
+}
+.dos{
+    height: 399px;
+    background: black;
+}
+.tres > .box1{
+    width: 740px;
+    display: flex;
+}
+.tres{
+    color: white;
+   background: #1B1E27;   
+}
+.tres > p{
+   color: white;
+}
+.tres > .box2{
+     width: 740px;
+    display: flex;
+}
+.trece > ul{
+    display: flex;
+    color: black;
+    gap: 10px;
+    padding:1px 1100px;
+}
+.trece > ul > li >a{
+    color: white;
+   gap: 25px;   
+   transition: 0.5s ease;
+}
+.trece{
+    background: #272C3D;
+    display: flex;
+}
+.trece > ul > li > a:hover{
+    color: #FF9C28;
+}
